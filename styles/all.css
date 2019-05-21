@@ -1,0 +1,479 @@
+/** Color Scheme: #1DB954; #FFFFFF; #000000 **/
+
+.underline{
+    text-decoration: underline;
+}
+.header {
+  flex: 1 100%;
+  padding: 20px 0px 0px 0px;
+  color: black;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding:10px;
+  margin:5px;
+  padding-left:52px;
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding:10px;
+  margin:5px;
+  padding-left:52px;
+}
+#subtitle{
+  text-indent:40px;
+  margin-top: -25%;
+}
+
+.headers {
+  margin-top: -8%;
+  text-align: left;
+  font-family: cursive;
+  font-size: 32.5px;
+}
+.headers-login {
+  margin-top: -8%;
+  text-align: center;
+  font-family: cursive;
+  font-size: 32.5px;
+  padding-left: 0px;
+}
+
+p{
+  padding:8px;
+  margin:5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+  list-style-type: circle;
+}
+
+/*******************************/
+
+/********* NAVIGATION **********/
+
+body {
+  margin: 10px 10px;
+  padding: 0;
+  height: 100%;
+  background-size: cover;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 50px;
+  box-sizing: border-box;
+  background:white;
+  color: black;
+  font-family: "Verdana";
+  display: block;
+}
+
+nav.black {
+  background: rgba(0,0,0,0.8);
+  height: 100px;
+  padding: 10px 100px;
+}
+
+nav .logo {
+  padding: 25px 20px;
+  height: 80px;
+  float: left;
+  font-size: 20px;
+  padding-left: 5px;
+
+}
+
+nav.black .logo {
+  color:black;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  margin:0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  line-height: 80px;
+  padding: 12px 20px;
+  text-decoration: none;
+  color:black;
+}
+
+nav.black ul li a {
+  color: #fff;
+}
+
+nav ul li a:focus {
+  outline: none;
+}
+
+
+.content1 {
+   min-height: 100%;
+  margin-bottom: -50px;
+}
+
+#here {
+  background:#1DB954;
+  color: #fff;
+  border-radius: 6px;
+}
+
+
+
+/*******************************/
+
+
+/********* LOGIN **********/
+
+.content-login {
+  margin-top: 100px;
+  min-height: 100%;
+  margin-bottom: -50px;
+  text-align: center;
+}
+
+
+
+.label-login {
+  text-align: center;
+}
+/*******************************/
+
+
+/********* IMAGES **********/
+
+img {
+  border: black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+/*******************************/
+
+
+a{
+    text-decoration: none;
+}
+
+/********* Footer **********/
+.footer {
+  color:white;
+  text-align: center;
+  flex: 1 100%;
+  padding: 35px;
+}
+
+.push {
+  height: 50px;
+}
+
+.login {
+  padding: 0px 10px;
+  background: black;
+  color: white;
+  border-radius: 6px;
+  line-height: 80px;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+
+.logo-footer {
+  width: 150px;
+  height: 150px;
+  padding: 10px 10px;
+}
+
+.craigs {
+  color: black;
+}
+
+.link {
+  background:#1DB954;
+  color: white;
+  border-radius: 6px;
+  line-height: 80px;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+/*******************/
+
+/* Contact form start here*/
+#contactinfo ul li{
+  list-style-type: none;
+}
+#contactinfo {
+  padding-left:13%;
+}
+#contactinfo_header{
+  padding-left:15%
+}
+
+label{
+  font-size: 15px;
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-family: cursive;
+}
+.choose {
+  font-size: 15px;
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-family: cursive;
+  padding-left: 52px;
+}
+
+.pricerange {
+  padding-left: 52px;
+}
+table {
+  margin-left: 400px;
+  margin-bottom: 50px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 640px;
+  border-collapse:
+  collapse; border-spacing: 0;
+}
+
+td, th { border: 1px solid #CCC; height: 30px; }
+
+th {
+  color:white;
+  background:#1DB954;
+  font-weight: bold;
+}
+td {
+  background: #FAFAFA;
+  text-align: justify;
+  padding:30px;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-family: cursive;}
+/*Contact form end here*/
+
+/* #searchForm{ */
+  /* margin-top:130px; */
+/* } */
+
+
+/*reviews page*/
+#leave_review_{
+  padding:20px;
+  margin:5px;
+  padding-left:13%;
+
+}
+#leave_review_ input{
+  height:20px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: white;
+}
+#leave_review_ textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 30px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: white;
+}
+
+
+/*Parallax scrolling*/
+.content{
+  width:70%;
+  text-align: justify;
+  padding-left: 15%;
+  padding-top: 30px;
+  padding-bottom:30px;
+}
+.content .container{
+  position:absolute;
+  bottom:110px;
+  background:rgba(0,0,0,.5);
+  color:white;
+  width: 100%;
+}
+.parallax{
+  background-color:black;
+  color:black;
+  height:700px;
+  background-size: cover;
+  z-index: 1;
+}
+
+.parallax_subheader{
+  padding-left:10px;
+}
+
+#section1{
+  background:
+  url("../images/airmchair1.JPG") no-repeat fixed;
+  /* image taken by Linday Finn (group member) */
+  background-position:center top;
+  background-size:cover;
+}
+
+#section2{
+  background:
+  url("../images/couch1.JPG") no-repeat fixed;
+  /* image taken by Linday Finn (group Member)*/
+  background-position:center top;
+  background-size:cover;
+}
+
+#section3{
+  background:
+  url("../images/desk1.JPG") no-repeat fixed;
+  /* image taken by Linday Finn (group member)*/
+  background-position:center top;
+  background-size:cover;
+  /* height:700px; */
+}
+
+
+
+
+
+#review_table {
+  margin-left: 13%;
+  text-align: justify;
+  width:75%;
+}
+
+#review_table td {
+  padding-left: 40px;
+  padding-right:40px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  background-color:white;
+}
+
+#review_table th{
+  text-align:center;
+}
+#review_table td:hover{
+  background-color: #f5f5f5;
+}
+
+
+
+.album_caption{
+  text-align: center;
+}
+
+.logo-4 {
+  display: block;
+}
+figure {
+  display: inline-block;
+  /* display: flex; */
+}
+
+.album_cover{
+  border-radius: 70%;
+  height:210px;
+  Width:210px;
+  transition: transform .2s;
+
+}
+.single_formatting{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: left;
+
+}
+.big_image{
+  width: 400px;
+  height: 400px;
+
+}
+
+.big_figure{
+  display:flex;
+}
+
+.big_caption{
+  /* display:flex; */
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:20px;
+  margin-top:3px;
+
+}
+
+.wrapper{
+  margin-bottom: 150px;
+}
+
+.album_photos{
+  transition: transform .2s;
+}
+.album_photos:hover {
+  transform: scale(1.1);
+
+}
+
+.album_cover:hover {
+  transform: scale(1.1);
+}
+.headers{
+  font-family: cursive;
+  font-size: 32.5px;
+}
+._album{
+  text-align: center;
+}
+
+.moving_list{
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left: 10%;
+}
+
+.moving_list_paragarph{
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left: 8%;
+  margin-right:10%;
+}
+
+.image_label{
+  display:inline-block;
+  padding: 4px;
+}
+
+.upload_file{
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signin{
+  margin-top: 20px;
+}
+.signin button{
+  width:100px;}
